@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navegador{
+    background: #2a9d8f;
+    height: 15em;
+}
+
+.tamanocontenido{
+    width: 80%;
+    max-width: 75em;
+    background: #264653;
+    margin: 10%;
+    
+        
+    
+}
+.tamanocontenido2{
+    margin-top: -17em;
+    height: 20em;
+    
+    
+}
+.tamanocontenido2 img{
+    float: left;
+    height: 20em;
+    object-fit: cover;
+    object-position: center center;
+    
+    
+}
+
+
+.tamanocontenido2 .texto{
+    font-weight: 100;
+    color: white;
+    float: left;
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: 25px;
+    line-height: 50px;
+    
+}
+
+.tamanocontenido2 .texto span{
+    font-weight: 600;
+}
+
+.tamanocontenido3 {
+    margin-top: -100px;
+    width: 40%;
+    height: 15em;
+    background: #264653;
+    float: left;
+    margin-left: 10%;
+}
+
+
+.tamanocontenido4{
+    margin-top: -100px;
+    width: 40%;
+    height: 15em;
+    background: #264653;
+    float: left;
+}
+
+.info li{
+    color: white;
+    list-style: none;
+    margin-left: 50px;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.titulo2, .titulo1{
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.perfil1{
+    width: 20%;
+    margin-left: 10%;
+    height: 9em;
+    margin-top: 50px;
+    background: #264653;
+    float: left;
+    
+}
+
+.perfil2, .perfil3{
+    width: 20%;
+    height: 9em;
+    margin-left: 10%;
+    margin-top: 50px;
+    background: #264653;
+    float: left;
+}
+
+.contenido1{
+    color: white;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.tamanocontacto{
+    width: 20%;
+    max-width: 75em;
+    height: 15em;
+    background: #264653;
+    margin-left: 40%;
+    margin-top: 50px;
+    float: left;
+}
+
+.contactame{
+    color: white;
+    padding: 10px;
+}
+
+.contacto form{
+    padding: 10px;
+    
+    
+}
+
+.contacto input{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.contacto button{
+    margin-left: 40%;
+    float: left;
+    margin-top: 20px;
+}
+
+.pie{
+    background: lightcoral;
+    margin-top: 100%;
+}
