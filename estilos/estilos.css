@@ -6,30 +6,32 @@
 }
 
 .navegador{
-    background: #2a9d8f;
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(124,184,231,0) 99%,rgba(125,185,232,0) 100%) ;
     height: 15em;
 }
 
 .tamanocontenido{
     width: 80%;
     max-width: 75em;
-    background: #264653;
+    background: linear-gradient( to left, #457b9d, #264653);
     margin: 10%;
-    
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px #888;  
         
     
 }
 .tamanocontenido2{
     margin-top: -17em;
     height: 20em;
-    
-    
+       
 }
+
 .tamanocontenido2 img{
     float: left;
     height: 20em;
     object-fit: cover;
     object-position: center center;
+    border-radius: 50px 0 0 50px;
     
     
 }
@@ -57,6 +59,7 @@
     background: #264653;
     float: left;
     margin-left: 10%;
+    border-radius: 20px 0 0 20px;
 }
 
 
@@ -66,6 +69,7 @@
     height: 15em;
     background: #264653;
     float: left;
+    border-radius: 0 20px 20px 0;
 }
 
 .info li{
@@ -91,6 +95,7 @@
     margin-top: 50px;
     background: #264653;
     float: left;
+    border-radius: 20px;
     
 }
 
@@ -101,18 +106,20 @@
     margin-top: 50px;
     background: #264653;
     float: left;
+    border-radius: 20px;
 }
 
 .contenido1{
     color: white;
     padding: 20px;
     line-height: 30px;
+    
 }
 
 .tamanocontacto{
     width: 20%;
     max-width: 75em;
-    height: 15em;
+    height: 18em;
     background: #264653;
     margin-left: 40%;
     margin-top: 50px;
@@ -122,6 +129,7 @@
 .contactame{
     color: white;
     padding: 10px;
+    text-align: center;
 }
 
 .contacto form{
@@ -144,4 +152,12 @@
 .pie{
     background: lightcoral;
     margin-top: 100%;
+}
+
+.fa-question-circle{
+    color: white;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    
 }
